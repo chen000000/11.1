@@ -12,10 +12,14 @@
 
 @end
 
+BOOL flag;
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    flag = NO;
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
