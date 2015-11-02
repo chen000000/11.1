@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
+{
+    IBOutlet  UIScrollView * bottomScroll;
+}
+
+
 
 
 @end
