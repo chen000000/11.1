@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1818E8E51BE9E433003D09DA /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818E8E41BE9E433003D09DA /* Core.m */; };
 		18C1D2DC1BE7EDD300C01D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1D2DB1BE7EDD300C01D06 /* main.m */; };
 		18C1D2DF1BE7EDD300C01D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1D2DE1BE7EDD300C01D06 /* AppDelegate.m */; };
 		18C1D2E21BE7EDD300C01D06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1D2E11BE7EDD300C01D06 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1818E8E31BE9E433003D09DA /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		1818E8E41BE9E433003D09DA /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
 		18C1D2D61BE7EDD300C01D06 /* Test11.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test11.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C1D2DA1BE7EDD300C01D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C1D2DB1BE7EDD300C01D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1818E8E21BE9E3FA003D09DA /* system */ = {
+			isa = PBXGroup;
+			children = (
+				1818E8E31BE9E433003D09DA /* Core.h */,
+				1818E8E41BE9E433003D09DA /* Core.m */,
+			);
+			name = system;
+			sourceTree = "<group>";
+		};
 		18C1D2CD1BE7EDD300C01D06 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		18C1D2D81BE7EDD300C01D06 /* Test11.1 */ = {
 			isa = PBXGroup;
 			children = (
+				1818E8E21BE9E3FA003D09DA /* system */,
 				18C1D2DD1BE7EDD300C01D06 /* AppDelegate.h */,
 				18C1D2DE1BE7EDD300C01D06 /* AppDelegate.m */,
 				18C1D2E01BE7EDD300C01D06 /* ViewController.h */,
@@ -221,6 +234,7 @@
 			files = (
 				18C1D2E21BE7EDD300C01D06 /* ViewController.m in Sources */,
 				18C1D2DF1BE7EDD300C01D06 /* AppDelegate.m in Sources */,
+				1818E8E51BE9E433003D09DA /* Core.m in Sources */,
 				18C1D2DC1BE7EDD300C01D06 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
