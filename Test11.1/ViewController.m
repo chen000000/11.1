@@ -21,6 +21,7 @@ BOOL flag;
     flag = NO;
     //flag = NO;
     NSLog(@"你好，杨磊");
+    NSLog(@"你好，@杨磊");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
